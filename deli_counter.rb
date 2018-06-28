@@ -16,6 +16,11 @@ def take_a_number(arr, name)
   arr << name
   puts "Welcome, #{name}. You are number #{arr.length} in line."
 end
+j = 0
+def take_a_number_old_school(arr, name)
+  j += 1
+  puts "Welcome, #{name}. You are number #{j} in line."
+end
 
 def now_serving(arr)
   if arr.empty?
